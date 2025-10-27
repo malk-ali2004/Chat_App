@@ -121,7 +121,6 @@ class _ProfileViewState extends State<ProfileView> {
             );
           }
 
-          // 🔹 في حالة الخطأ
           if (state is GetProfileError) {
             return Scaffold(
               body: Center(
